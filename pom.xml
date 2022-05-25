@@ -7,11 +7,11 @@
         <module>contract</module>
         <module>service</module>
     </modules>
-    <groupId>com.braindata</groupId>
-    <artifactId>dubbo-demo-parent</artifactId>
+    <groupId>com.mouse</groupId>
+    <artifactId>order-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dubbo-demo</name>
-    <description>dubbo-demo</description>
+    <name>order-service</name>
+    <description>order-service</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

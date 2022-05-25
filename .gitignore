@@ -13,3 +13,4 @@
 log/*
 service/LOGS_DIR_IS_UNDEFINED/*
 arthas-output/*
+LOGS_DIR_IS_UNDEFINED/*

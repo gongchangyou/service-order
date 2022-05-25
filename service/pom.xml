@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>dubbo-demo-parent</artifactId>
-        <groupId>com.braindata</groupId>
+        <artifactId>order-parent</artifactId>
+        <groupId>com.mouse</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <description>dubbo demo service</description>
-    <artifactId>dubbo-demo-service</artifactId>
+    <description>order service</description>
+    <artifactId>order-service</artifactId>
     <properties>
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <dubbo.version>2.7.8</dubbo.version>
