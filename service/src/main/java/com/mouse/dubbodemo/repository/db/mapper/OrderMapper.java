@@ -1,7 +1,7 @@
 package com.mouse.dubbodemo.repository.db.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.mouse.dubbodemo.repository.db.model.Macaque;
+import com.mouse.dubbodemo.repository.db.model.Order;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,5 +10,5 @@ import org.springframework.stereotype.Component;
  * @date 2021/11/17 7:45 下午
  */
 @Component
-public interface MacaqueMapper extends BaseMapper<Macaque> {
+public interface OrderMapper extends BaseMapper<Order> {
 }

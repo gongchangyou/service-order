@@ -12,12 +12,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@TableName("macaque")
-public class Macaque {
+@TableName("order")
+public class Order {
 
   @TableId(type = IdType.AUTO)
-  private long id;
-  private String name;
-  private String memo;
+  private Long id;
+  private Integer status;
 
 }
