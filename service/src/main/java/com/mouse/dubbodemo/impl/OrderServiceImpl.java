@@ -37,7 +37,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public long create() {
-        val order = Order.builder().build();
+        val order = Order.builder()
+                .status(0)
+                .build();
         orderRepository.insertOrder(order);
         return order.getId();
     }

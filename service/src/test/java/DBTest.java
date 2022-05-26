@@ -1,6 +1,9 @@
 import com.mouse.dubbodemo.DubboDemoApplication;
+import com.mouse.dubbodemo.impl.OrderServiceImpl;
 import com.mouse.dubbodemo.repository.OrderRepository;
 import lombok.extern.slf4j.Slf4j;
+import lombok.val;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -16,7 +19,19 @@ public class DBTest {
 
     //mongodb 客户端
     @Autowired
-    private OrderRepository repository;
+    private OrderServiceImpl orderServiceImpl;
+
+    @Test
+    void create() {
+        val orderId = orderServiceImpl.create();
+        log.info("orderId={}", orderId);
+    }
+
+    @Test
+    void buy() {
+        val result = orderServiceImpl.buy(1);
+        log.info("result={}", result);
+    }
 
 
 
