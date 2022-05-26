@@ -1,7 +1,7 @@
-package com.mouse.dubbodemo.repository;
+package com.mouse.order.repository;
 
-import com.mouse.dubbodemo.repository.db.mapper.OrderMapper;
-import com.mouse.dubbodemo.repository.db.model.Order;
+import com.mouse.order.repository.db.mapper.OrderMapper;
+import com.mouse.order.repository.db.model.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

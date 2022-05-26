@@ -1,4 +1,4 @@
-package com.mouse.dubbodemo.intf;
+package com.mouse.order.intf;
 
 /**
  * @author gongchangyou

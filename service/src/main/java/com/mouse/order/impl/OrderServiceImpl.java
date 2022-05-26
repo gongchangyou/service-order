@@ -1,8 +1,8 @@
-package com.mouse.dubbodemo.impl;
+package com.mouse.order.impl;
 
-import com.mouse.dubbodemo.intf.OrderService;
-import com.mouse.dubbodemo.repository.OrderRepository;
-import com.mouse.dubbodemo.repository.db.model.Order;
+import com.mouse.order.intf.OrderService;
+import com.mouse.order.repository.OrderRepository;
+import com.mouse.order.repository.db.model.Order;
 import lombok.val;
 import org.apache.dubbo.config.ProtocolConfig;
 import org.apache.dubbo.config.annotation.DubboService;

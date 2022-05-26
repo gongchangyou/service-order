@@ -1,6 +1,5 @@
-import com.mouse.dubbodemo.DubboDemoApplication;
-import com.mouse.dubbodemo.impl.OrderServiceImpl;
-import com.mouse.dubbodemo.repository.OrderRepository;
+import com.mouse.order.DubboDemoApplication;
+import com.mouse.order.impl.OrderServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.junit.jupiter.api.Test;

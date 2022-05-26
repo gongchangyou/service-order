@@ -1,4 +1,4 @@
-package com.mouse.dubbodemo.config;
+package com.mouse.order.config;
 
 import java.util.Map;
 import java.util.Map.Entry;

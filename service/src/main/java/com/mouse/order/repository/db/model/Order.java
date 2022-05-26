@@ -1,4 +1,4 @@
-package com.mouse.dubbodemo.repository.db.model;
+package com.mouse.order.repository.db.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

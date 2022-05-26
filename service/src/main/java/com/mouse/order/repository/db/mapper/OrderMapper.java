@@ -1,7 +1,7 @@
-package com.mouse.dubbodemo.repository.db.mapper;
+package com.mouse.order.repository.db.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.mouse.dubbodemo.repository.db.model.Order;
+import com.mouse.order.repository.db.model.Order;
 import org.springframework.stereotype.Component;
 
 /**
