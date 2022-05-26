@@ -37,8 +37,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.braindata</groupId>
-            <artifactId>dubbo-demo-contract</artifactId>
+            <groupId>com.mouse</groupId>
+            <artifactId>order-contract</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

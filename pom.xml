@@ -17,15 +17,15 @@
     </properties>
     <distributionManagement>
         <repository>
-            <id>nexus-releases</id>
+            <id>local-nexus-releases</id>
             <url>
-                http://10.10.48.192:8081/nexus/repository/maven-releases/
+                http://localhost:8081/nexus/repository/maven-releases/
             </url>
         </repository>
         <snapshotRepository>
-            <id>nexus-snapshots</id>
+            <id>local-nexus-snapshots</id>
             <url>
-                http://10.10.48.192:8081/nexus/repository/maven-snapshots/
+                http://localhost:8081/nexus/repository/maven-snapshots/
             </url>
         </snapshotRepository>
     </distributionManagement>
