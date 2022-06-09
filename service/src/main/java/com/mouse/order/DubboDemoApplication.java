@@ -1,11 +1,12 @@
 package com.mouse.order;
 
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"com.mouse"})
+@SpringBootApplication(scanBasePackages = {"com.mouse"}, exclude = DruidDataSourceAutoConfigure.class)
 //@EnableNacosDiscovery
 //@DubboComponentScan(value = "com.braindata.dubbodemo.impl")
 @EnableDubbo(scanBasePackages = "com.mouse.order.impl")
